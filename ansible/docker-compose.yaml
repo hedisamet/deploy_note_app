@@ -7,7 +7,7 @@ services:
     container_name: backend-app
     restart: always
     ports:
-      - "8001:8000"
+      - "8000:8000"
     networks:
       - my_bridge
     healthcheck:
